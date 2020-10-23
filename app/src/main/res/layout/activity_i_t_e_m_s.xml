@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ITEMS"
+    android:orientation="vertical">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="UPLOAD NEW PRODUCT"
+    android:textStyle="bold"
+    android:textSize="30sp"
+    />
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="150px"
+        android:src="@drawable/laptop"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt1"
+        android:layout_centerHorizontal="true"
+        android:hint="FIRST NAME"
+        android:layout_marginTop="25dp"
+        android:inputType="text"
+        />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt2"
+            android:layout_centerHorizontal="true"
+            android:hint="FIRST NAME"
+            android:layout_marginTop="25dp"
+            android:inputType="text"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="CALCULATE"
+            android:id="@+id/calculate"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt3"
+            android:layout_below="@id/calculate"
+            android:layout_centerHorizontal="true"
+            android:hint="FINAL PRICE"
+            android:inputType="text"
+            />
+        <Button
+            android:id="@+id/save"
+            android:layout_below="@id/edt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="SAVE"
+
+            />
+    </LinearLayout>
